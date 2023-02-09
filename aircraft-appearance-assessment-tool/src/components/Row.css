@@ -1,0 +1,31 @@
+#row-div {
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+    height: 75px;
+}
+
+#edit-button {
+    background: none;
+    border: none;
+    color: var(--ua--blue);
+}
+
+#caption-cell {
+    width: 100px;
+    font-size: 11px;
+}
+
+#viewmore-button {
+    background: none;
+    border: none;
+    color: var(--ua--blue);
+}
+
+td img {
+    width: 50px;
+    height: auto;
+    padding: 0px;
+}

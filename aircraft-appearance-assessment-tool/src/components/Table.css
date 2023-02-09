@@ -1,0 +1,35 @@
+#content {
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    overflow-x: scroll;
+}
+
+#filter-list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+#filter-list li {
+    display: inline-block;
+    padding-right: 4px;
+    color: var(--ua--blue);
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x:scroll;
+}
+
+.Header {
+    height: 50px;
+    background-color: var(--ua--blue);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
